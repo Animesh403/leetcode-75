@@ -11,4 +11,4 @@ class Solution(object):
                     continue
                 elif(nums[i]+nums[j]==target):
                     return list((i,j))
-#O(n^2)
+#Time -O(n^2)
