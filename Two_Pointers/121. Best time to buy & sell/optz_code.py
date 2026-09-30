@@ -1,0 +1,12 @@
+class Solution(object):
+    def maxProfit(self, prices):
+      l,r = 0,1 #left = buy , right = sell
+        max_profit = 0
+        while (r<len(prices)):
+            
+            if prices[r]<prices[l]:
+                l = r
+            if prices[r]-prices[l]>max_profit:
+                max_profit = prices[r]-prices[l]
+            r+= 1
+        return max_profit
