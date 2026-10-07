@@ -26,11 +26,11 @@ For the particular index element the result is its *prefix x postfix* values.
  
  <ins>Optz space complexity</ins>
 
- [!NOTE]
+> [!NOTE]
 > iteration from 0 to end
- -prefix array is created by prefix * nums[i] 
+-prefix array is created by prefix * nums[i] 
  
- [!NOTE] 
+> [!NOTE] 
 > iteration from end to 0
- -postfix array is the final result so nums[i] is result array x postfix 
+-postfix array is the final result so nums[i] is result array x postfix 
 
