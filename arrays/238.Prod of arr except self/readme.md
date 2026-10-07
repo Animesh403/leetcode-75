@@ -25,5 +25,6 @@ For the particular index element the result is its *prefix x postfix* values.
  This makes the time complexity to *o(n)* but <mark>but space complexity is o(n^2)</mark>
  
  <ins>Optz space complexity</ins>
- prefix array is created by prefix * nums[i] [!NOTE] iteration from 0 to end
- postfix array is the final result so nums[i] is result array x postfix [!NOTE] iteration from end to 0
+ 
+ prefix array is created by prefix * nums[i] [!NOTE] > iteration from 0 to end
+ postfix array is the final result so nums[i] is result array x postfix [!NOTE] > iteration from end to 0
