@@ -1,5 +1,5 @@
 ### Brute Force 
-'''python
+```python
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -13,7 +13,7 @@ class Solution(object):
                 return len(temp[i])
             else:
                 i = i-1
-'''
+```
 > [!NOTE]
 > ***split()*** is not required , can be done without it
 > both ***time and space complexity*** is *O(n)*
